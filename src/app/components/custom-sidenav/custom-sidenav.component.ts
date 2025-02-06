@@ -7,9 +7,10 @@ export type MenuItem = {
 };
 
 @Component({
-  selector: 'app-custom-sidenav',
-  templateUrl: './custom-sidenav.component.html',
-  styleUrl: './custom-sidenav.component.scss',
+    selector: 'app-custom-sidenav',
+    templateUrl: './custom-sidenav.component.html',
+    styleUrl: './custom-sidenav.component.scss',
+    standalone: false
 })
 export class CustomSidenavComponent {
   sideNavCollapsed = signal(false);
